@@ -1,0 +1,31 @@
+[0m00:08:08.005737 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c088250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c0a3650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c0a3e10>]}
+
+
+============================== 00:08:08.008948 | 62222100-d32e-4961-a575-fb4d907cb7be ==============================
+[0m00:08:08.008948 [info ] [MainThread]: Running with dbt=1.11.8
+[0m00:08:08.009270 [debug] [MainThread]: running dbt with arguments {'warn_error': 'None', 'empty': 'None', 'no_print': 'None', 'introspect': 'True', 'quiet': 'False', 'partial_parse': 'True', 'log_cache_events': 'False', 'target_path': 'None', 'write_json': 'True', 'static_parser': 'True', 'indirect_selection': 'eager', 'fail_fast': 'False', 'log_path': 'logs', 'log_format': 'default', 'invocation_command': 'dbt init mlb_pipeline', 'version_check': 'True', 'printer_width': '80', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'cache_selected_only': 'False', 'profiles_dir': '/Users/shubreetkaur/.dbt', 'use_experimental_parser': 'False', 'debug': 'False', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True'}
+[0m00:08:08.018038 [info ] [MainThread]: Creating dbt configuration folder at /Users/shubreetkaur/.dbt
+[0m00:08:08.018979 [debug] [MainThread]: Starter project path: /opt/homebrew/lib/python3.11/site-packages/dbt/include/starter_project
+[0m00:08:08.023181 [info ] [MainThread]: 
+Your new dbt project "mlb_pipeline" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m00:08:08.023403 [info ] [MainThread]: Setting up your profile.
+[0m00:09:39.998750 [info ] [MainThread]: Profile mlb_pipeline written to /Users/shubreetkaur/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m00:09:40.285345 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 92.32122, "process_in_blocks": "0", "process_kernel_time": 0.257261, "process_mem_max_rss": "209813504", "process_out_blocks": "0", "process_user_time": 0.960866}
+[0m00:09:40.298429 [debug] [MainThread]: Command `dbt init` succeeded at 00:09:40.297441 after 92.33 seconds
+[0m00:09:40.299587 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c089ed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107e58110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107ecd190>]}
+[0m00:09:40.300024 [debug] [MainThread]: Flushing usage events
+[0m00:09:40.557572 [debug] [MainThread]: An error was encountered while trying to flush usage events
